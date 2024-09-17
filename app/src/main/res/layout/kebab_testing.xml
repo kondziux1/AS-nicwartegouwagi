@@ -59,36 +59,6 @@
             app:layout_constraintTop_toBottomOf="@id/inputgodnosc" />
 
 
-        <TextView
-            android:id="@+id/dog"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:text="Pies"
-            android:textColor="@color/black" />
-
-        <TextView
-            android:id="@+id/cat"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:text="Kot"
-            android:textColor="@color/black"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/dog" />
-
-        <TextView
-            android:id="@+id/seapig"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:text="Świnka morska"
-            android:textColor="@color/black"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/cat" />
         <ListView
             android:id="@+id/listviu"
             android:layout_width="match_parent"
