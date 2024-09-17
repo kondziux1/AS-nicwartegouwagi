@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
         cipa.setOnClickListener(v -> {
             MediaPlayer song = MediaPlayer.create(MainActivity.this,R.raw.meow);
             song.start();
-            ObjectAnimator anim = ObjectAnimator.ofFloat(sex,"X",100f)
+            ObjectAnimator anim = ObjectAnimator.ofFloat(sex,"X",100f);
 
         });
     }
