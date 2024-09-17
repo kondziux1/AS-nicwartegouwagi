@@ -5,62 +5,20 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#90EE90"
+    android:background="@color/bcg"
     tools:context=".MainActivity">
+
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="202dp"
-        android:layout_height="76dp"
-        android:text="kocham mame!!!"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageView
-        android:id="@+id/cipadwa"
-        android:layout_width="192dp"
-        android:layout_height="191dp"
-        android:layout_marginTop="57dp"
-        android:layout_marginBottom="116dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/sex" />
-
-    <Button
-        android:id="@+id/lefttop"
-        style="@style/Widget.AppCompat.Button"
-        android:layout_width="191dp"
-        android:layout_height="184dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="12dp"
-        android:background="@android:color/transparent"
-        android:visibility="visible"
-        app:layout_constraintStart_toStartOf="@+id/cipadwa"
-        app:layout_constraintTop_toTopOf="@+id/cipadwa"
-        app:srcCompat="@drawable/sex" />
-
-    <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="409dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="118dp">
-
-    </com.google.android.material.textfield.TextInputLayout>
-
-    <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/spermisko"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:hint="Imię i nazwisko właściciela"
+        android:background="#6F000000"
+        android:text="Wizyta u weterynarza"
+        android:textAlignment="viewStart"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

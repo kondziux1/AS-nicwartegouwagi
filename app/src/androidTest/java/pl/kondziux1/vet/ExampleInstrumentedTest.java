@@ -1,4 +1,4 @@
-package pl.kondziux1.kamilwwode;
+package pl.kondziux1.vet;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("pl.kondziux1.kamilwwode", appContext.getPackageName());
+        assertEquals("pl.kondziux1.vet", appContext.getPackageName());
     }
 }

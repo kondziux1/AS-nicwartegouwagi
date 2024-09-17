@@ -1,4 +1,4 @@
-package pl.kondziux1.kamilwwode;
+package pl.kondziux1.vet;
 
 import org.junit.Test;
 
