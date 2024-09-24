@@ -31,9 +31,9 @@ public class MainActivity extends AppCompatActivity {
         gatunki.add("Kot");
         gatunki.add("Świnka Morska");
 
+        ArrayAdapter<String> arradapt = new ArrayAdapter<String>(getApplicationContext(), android.R.layout.simple_list_item_1,gatunki);
 
-
-        listView.getAdapter();
+        listView.setAdapter(arradapt);
 
 
 
