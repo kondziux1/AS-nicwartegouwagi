@@ -38,14 +38,7 @@ public class MainActivity extends AppCompatActivity {
         listView.setAdapter(arradapt);
 
         listView.setSelector(R.color.mil);
-        TextView kibel = findViewById(R.id.karwa);
 
-
-        View vi  = getCurrentFocus();
-        vi.setOnClickListener(v ->{
-            int kebab = listView.getSelectedItemPosition();
-            kibel.setText(""+kebab);
-        });
 
 
 
